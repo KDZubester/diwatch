@@ -155,22 +155,6 @@ void loop()
     delay(500);
 
     long unsigned currM = millis();
-//    long unsigned currM2 = millis();
-
-
-
-//    while ((millis() - currM) < 5000) {
-//      if (millis() - currM2 >= 1000) {
-//        charge = analogRead(CHARGE_PIN);
-//        Serial.println(charge);
-//        currM2 = millis();
-//      }
-//    }
-//    return;
-
-
-
-    
     
     //Run for 5 seconds
     while ((millis() - currM) < 5000) {
